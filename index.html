@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header class="header">
+        
+         <div class="menu container" id="mennu">
+         <!--   <a href="#" class="logo">logo</a>  -->
+             <div id="izquierda">
+                <i data-feather="menu" class="toggle" id="toggle-menu"></i>
+                <nav class="nav" id="nav-menu">
+                    <i data-feather ="x" class="close" id="close-menu"></i>
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="" class="nav_link nuevo">LO NUEVO</a></li>
+                        <li class="nav_item"><a href="" class="nav_link">Hombre</a></li>
+                        <li class="nav_item"><a href="" class="nav_link">Mujer</a></li>
+                        <li class="nav_item"><a href="" class="nav_link">Regalos</a></li>
+                        <li class="nav_item"><a href="" class="nav_link">OFERTAS</a></li>
+                    </ul>
+                </nav>
+            
+
+                <div id="ctn-icon-search">
+                <!--  <img src="/images/busqueda.svg" class="busqueda" id="icon-search" alt=""> -->
+                  <i data-feather="search" class="buscar" id="icon-searchs"></i>
+                </div>
+
+            
+            </div>
+            
+            
+            <div>
+            <h1 href="" class ="main-header__title" >NAVARRO</h1>               
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#">Hombre</a></li>
+                        <li><a href="#">Mujer</a></li>
+                        <li><a href="#">Regalo</a></li>
+                        <li><a href="#">Sorpresa</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="/images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                             <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                       <th>Imagen</th>
+                                       <th>Nombre</th>
+                                       <th>Precio</th>
+                                       <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Limpiar</a>
+                            <a href="#" class="btn-2">Comprar</a>
+                        </div>       
+                    </li>
+                </ul>
+            </div>       
+        </div>
+    </header>
+
+    <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="¿Que deseas buscar?">
+    </div>
+      <ul id="box-search">
+        <li><a href=""><i class="fa-solid fa-magnifying-glass"></i>chompas</a></li>
+        <li><a href=""><i class="fa-solid fa-magnifying-glass"></i>pantalon</a></li>
+        <li><a href=""><i class="fa-solid fa-magnifying-glass"></i>zapatillas</a></li>
+        <li><a href=""><i class="fa-solid fa-magnifying-glass"></i>camisas</a></li>
+        <li><a href=""><i class="fa-solid fa-magnifying-glass"></i>Polos</a></li>
+      </ul>
+    <div id="cover-ctn-search">
+    
+    </div>
+
+
+
+
+    <div class="container-slider">
+        <div class="slider" id="slider">
+          <div class="slider__section">
+            <img src="https://images.pexels.com/photos/2097085/pexels-photo-2097085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Mujer</h2>
+              <p class="slider__txt">sale 50% off</p>
+              <a href="" class="btn-shop">MÁS</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="https://images.pexels.com/photos/3414327/pexels-photo-3414327.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Mujer Sexy</h2>
+              <p class="slider__txt">sale 50% off</p>
+              <a href="" class="btn-shop">MÁS</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="https://images.pexels.com/photos/2846815/pexels-photo-2846815.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Mujer Diosa</h2>
+              <p class="slider__txt">sale 50% off</p>
+              <a href="" class="btn-shop">MÁS</a>
+            </div>
+          </div>
+          <div class="slider__section">
+            <img src="/images/slay.jpg" alt="" class="slider__img">
+            <div class="slider__content">
+              <h2 class="slider__title">Hombre</h2>
+              <p class="slider__txt">sale 50% off</p>
+              <a href="" class="btn-shop">MÁS</a>
+            </div>
+          </div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="/images/f5.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h1>zapatilla</h1>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="/images/f6.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h1>zapatilla</h1>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="/images/f7.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h1>Bolso</h1>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="/images/f4.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h1>Arete</h1>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+        </div>
+    </section>
+
+
+    <main class="products container" id="lista-1">
+
+        <h2>Novedades para ti</h2>
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="/images/1.png" alt="">
+                <div class="product-text">
+                    <h3>Camisa</h3>
+                    <p>calidad primium</p>
+                    <p class="precio">s/ 200</p>
+                    <a href="#" class="agregar-carrito btn-2" date-ide ="1">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/images/2.png" alt="">
+                <div class="product-text">
+                    <h3>chaqueta</h3>
+                    <p>calidad primium</p>
+                    <p class="precio">s/ 700</p>
+                    <a href="#" class="agregar-carrito btn-2" date-ide ="2">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/images/3.png" alt="">
+                <div class="product-text">
+                    <h3>Chamara</h3>
+                    <p>calidad primium</p>
+                    <p class="precio">s/ 500</p>
+                    <a href="#" class="agregar-carrito btn-2" date-ide ="3">agregar al carrito</a>
+                </div>
+            </div>
+
+            <!--
+            <div class="product">
+                <img src="/images/4.png" alt="">
+                <div class="product-text">
+                    <h3>Camisa</h3>
+                    <p>calidad primium</p>
+                    <p class="precio">s/ 100</p>
+                    <a href="#" class="agregar-carrito btn-2" date-ide ="4">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/images/5.png" alt="">
+                <div class="product-text">
+                    <h3>Camisa</h3>
+                    <p>calidad primium</p>
+                    <p class="precio">s/ 150</p>
+                    <a href="#" class="agregar-carrito btn-2" date-ide ="5">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/images/6.png" alt="">
+                <div class="product-text">
+                    <h3>Abrigo</h3>
+                    <p>calidad primium</p>
+                    <p class="precio">s/ 930</p>
+                    <a href="#" class="agregar-carrito btn-2" date-ide ="6">agregar al carrito</a>
+                </div>
+            </div>
+            -->
+        </div>
+    </main>
+
+
+
+    <section class="icons container">
+        <div class="icon-1">
+            <div class="icon-imag">
+                <img src="/images/i1.svg" alt="">
+            </div>
+            <div class="icon-text">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>
+                    amet consectetur adipisicing elit
+                </p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-imag">
+                <img src="/images/i2.svg" alt="">
+            </div>
+            <div class="icon-text">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>
+                    amet consectetur adipisicing elit
+                </p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-imag">
+                <img src="/images/i3.svg" alt="">
+            </div>
+            <div class="icon-text">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>
+                    amet consectetur adipisicing elit
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog container">
+
+        <div class="blog-1">
+            <img src="/images/b1.jpg" alt="">
+            <h3>Blog 1</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus atque in ut explicabo perferendis reiciendis voluptate asperiores, fugit quibusdam sunt, vel laborum repellat eligendi, blanditiis magni distinctio voluptas earum amet?
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="/images/b2.jpg" alt="">
+            <h3>Blog 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus atque in ut explicabo perferendis reiciendis voluptate asperiores, fugit quibusdam sunt, vel laborum repellat eligendi, blanditiis magni distinctio voluptas earum amet?
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="/images/b3.jpg" alt="">
+            <h3>Blog 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus atque in ut explicabo perferendis reiciendis voluptate asperiores, fugit quibusdam sunt, vel laborum repellat eligendi, blanditiis magni distinctio voluptas earum amet?
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        feather.replace();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
